@@ -2,31 +2,32 @@
 <img src="./bot.gif" width="550" />
 </p>
 
-
-# Tryby
-
 ## Exp
-- bot szuka najbliższego moba z listy, a następnie szuka najoptymalnieszej ścieżki, po czym przemieszcza się symulująć wciskanie przycisków na klawiaturze
-- bot krąży po mapach, idzie na następna, gdy nie wykryje żadnego moba
-- bot posiada funkcję dojścia na mapkę do expienia (np. po śmierci)
-- możliwość wprowadzenia grup, które bot ma ignorować
 
-## E2
-- bot czeka na pojawienie się E2, a następnie atakuje po losowym czasie
-- możliwość wyboru minimalnego i maksymalnego czasu, po jakim bot zaatakuje
+- The bot searches for the nearest mob from the list, then finds the optimal path, and moves by simulating keyboard button presses.
+- The bot roams around maps and moves to the next one when it doesn’t detect any mobs.
+- The bot has a function to navigate to a specific map for exping (e.g., after death).
+- Option to input groups that the bot should ignore.
 
-# System antybotowy (captcha)
-Co jakiś czas pojawia się captcha, którą bot rozwiązuje po losowym czasie.
-Bot wykrywa obrazki, na których znajdują się linie i zaznacza adekwatne odpowiedzi.
+## E2 (elite 2 mobs)
 
-# Opcje uniwersalne
-- automatyczne leczenie 
-- automatyczne uzupełnianie strzał
-- zatrzymanie bota, gdy zabraknie przedmiotów do leczenia lub strzał, w celu uniknięcia śmierci
+- The bot waits for E2 to appear and then attacks after a random delay.
+- Option to set minimum and maximum delay times before the bot attacks.
 
-# Niezbędne dodatki do działania bota
-- Autofight by Priveeq (autor: Priweejt)
-- Przechodzenie przez mapy (autor: Braciak z Kubisio)
+## Anti-bot System (Captcha)
+- A captcha appears periodically, which the bot solves after a random delay.
+- The bot detects images with lines and marks the appropriate answers.
 
-# Przydatne dodatki 
-- filtr łupu (autor: wlatca botuw)
+## Universal Options
+
+- Automatic healing
+- Automatic restocking of arrows
+- Bot stops if healing items or arrows run out to avoid death
+
+## Essential Add-ons for Bot Operation
+
+- Autofight by Priveeq (author: Priweejt)
+- Map traversal (author: Braciak with Kubisio)
+
+## Useful Add-ons
+- Loot filter (author: wlatca botuw)
